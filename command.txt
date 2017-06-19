@@ -1,0 +1,99 @@
+git指令
+
+git status -s
+git add .
+git commit -m 'change by wxy'
+git push origin dev:dev
+git pull
+git fetch origin
+git merge origin/dev
+git reset --hard
+git branch -a
+git checkout name
+
+ssh链接服务器
+
+ssh louis.zeng@24.250.92.35 silk4dev
+ssh claudio.xu@35.165.245.149 qZlKSfmlwf
+
+sudo su
+sudo rm cache/* -rf  
+sudo rm page_cache/* -rf
+sudo rm generation/* -rf
+sudo rm view_preprocessed/* -rf
+sudo chmod 777 var/* -R
+rm var/generation/* -R
+
+php bin/magento
+rm pub/static/frontend/Silk var/view_preprocessed -rf
+php bin/magento setup:static-content:deploy
+php bin/magento cache:clean
+
+mysql指令
+
+mysqldump -u root -p database > dbname.sql //导出数据库
+mysql -u root -p database < dbname.sql
+mysql -uroot -p -Bs --max_allowed_packet=1000M --default-character-set=utf8 db1 < db.sql
+mysql -u root -p;
+use databse
+source d:/dbname.sql
+
+mysql root赋值权限问题
+grant all privileges on *.* to root@”%” identified by “.”;
+flush privileges;
+
+vpn
+ClaudioXu
+shaD5od0X9
+push
+
+E:\xampp\apache\conf\extra
+httpd-vhosts.conf
+
+<VirtualHost *:80> 
+    DocumentRoot "E:/xampp/htdocs/new_benq" 
+    ServerName local.benq.com
+    ErrorLog "logs/www.xdhg.com-error.log"
+    CustomLog "logs/www.xdhg.com-access.log" common
+    <Directory "E:/xampp/htdocs/new_benq"> 
+       Options FollowSymLinks IncludesNOEXEC Indexes
+    DirectoryIndex index.html index.htm index.php
+    AllowOverride all 
+    Order Deny,Allow 
+    Allow from all 
+    Require all granted
+</Directory>
+
+</VirtualHost>
+
+webpack
+webpack         // 最基本的启动webpack的方法
+webpack -w      // 提供watch方法；实时进行打包更新
+webpack -p      // 对打包后的文件进行压缩
+webpack -d      // 提供source map，方便调式代码
+npm install webpack -g (全局安装)
+npm init
+npm install webpack --save-dev （指定项目下安装）
+webpack --display-error-details
+webpack app/main.js public/bundle.js
+webpack/npm start/npm run dev
+npm install webpack-dev-server --save-dev 
+npm install json-loader --save-dev 
+npm install less-loader --save-dev
+npm install postcss-loader autoprefixe --save-dev 
+npm install less --save-dev 
+npm install --save react react-dom
+npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
+npm install --save-dev style-loader css-loader
+npm install --save-dev html-webpack-plugin 
+npm install --save-dev babel-plugin-react-transform react-transform-hmr //热加载插件
+npm install --save-dev extract-text-webpack-plugin //分离js与css插件
+
+
+ps操作
+1、复制图片 shift+ctrl+c
+2、创建新文件 ctrl+n
+3、粘贴图片 ctrl+v
+4、保存 shift + alt + Ctrl + S
+
+silk.support evonikslik12345
