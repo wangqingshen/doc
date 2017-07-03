@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>商品详细页</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/css/aui/aui.css" />
+    <link rel="stylesheet" type="text/css" href="../../dist/css/aui/aui-slide.css" />
+</head>
+<body>
+<header class="aui-bar aui-bar-nav aui-bar-light">
+    <a class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div class="aui-title">商品详情</div>
+    <a class="aui-pull-right aui-btn">
+        <span class="aui-iconfont aui-icon-cart"></span>
+    </a>
+</header>
+<section class="aui-content">
+	<div id="aui-slide">
+        <div class="aui-slide-wrap" >
+            <div class="aui-slide-node aui-bg-warning aui-slide-node-middle aui-slide-node-center">
+                <div class="aui-content-padded">
+                    <span class="aui-text-danger">AUI Slide</span>提供了常用的配置属性，可以自定义宽度，高度，自动播放，分页器样式等，支持无缝循环轮播
+                </div>
+            </div>
+            <div class="aui-slide-node bg-dark">
+               <img src="../../dist/images/yanshi/p_2.jpg" />
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="../../dist/images/yanshi/p_1.jpg" />
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="../../dist/images/yanshi/p_3.jpg" />
+            </div>
+        </div>
+        <div class="aui-slide-page-wrap"><!--分页容器--></div>
+    </div>
+</section>
+</body>
+<script type="text/javascript" src="../../dist/js/aui/aui-slide.js"></script>
+<script type="text/javascript">
+var slide = new auiSlide({
+        container:document.getElementById("aui-slide"),
+        // "width":300,
+        "height":260,
+        "speed":300,
+        "pageShow":true,
+        "pageStyle":'dot',
+        "loop":true,
+        'dotPosition':'center',
+        currentPage: function() {
+        	console.log('ccc');
+        }
+      });
+</script>
+</html>

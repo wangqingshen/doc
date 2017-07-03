@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>order page</title>
+    <link rel="stylesheet" type="text/css" href="../dist/css/aui/aui.css" />
+</head>
+<body>
+<div class="aui-tab" id="tab">
+    <div class="aui-tab-item aui-active">配送中订单</div>
+     <div class="aui-tab-item">历史订单</div>
+</div>
+</body>
+<script type="text/javascript" src="../dist/js/aui/api.js" ></script>
+<script type="text/javascript" src="../dist/js/aui/aui-tab.js" ></script>
+<script type="text/javascript">
+    apiready = function(){
+        api.parseTapmode();
+    }
+    var tab = new auiTab({
+        element:document.getElementById("tab")
+    },function(ret){
+        console.log(ret);
+    });
+</script>
+</html>
