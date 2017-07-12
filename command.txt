@@ -11,6 +11,9 @@ git reset --hard
 git branch -a
 git checkout name
 
+$ ssh-keygen -t rsa -C "your@email.com"
+/Users/your_user_directory/.ssh/id_rsa
+
 sshÁ´½Ó·şÎñÆ÷
 
 ssh louis.zeng@24.250.92.35 silk4dev
