@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "PingFang SC Regular";
+  	src: url('PingFangRegular.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Medium";
+  	src: url('PingFangMedium.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+  	src: url('PingFangLight.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC ExtraLight";
+  	src: url('PingFangExtraLight.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Bold";
+  	src: url('PingFangBold.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Thin";
+  	src: url('PingFangThin.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}

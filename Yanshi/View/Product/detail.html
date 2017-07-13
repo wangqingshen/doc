@@ -1,0 +1,250 @@
+<tc_include file="Common:head" />
+<link rel="stylesheet" type="text/css" href="__ROOT__/application/Yanshi/Dist/css/aui/aui-slide.css" />
+</head>
+<body class="ys-product-detail">
+<!-- <header class="aui-bar aui-bar-nav aui-bar-light">
+    <a class="aui-pull-left aui-btn">
+        <span class="aui-iconfont aui-icon-left"></span>
+    </a>
+    <div class="aui-title">{$post_title}</div>
+</header> -->
+<section class="aui-content">
+	<div id="aui-slide">
+        <div class="aui-slide-wrap" >
+            <!-- <div class="aui-slide-node aui-bg-warning aui-slide-node-middle aui-slide-node-center">
+                <div class="aui-content-padded">
+                    <span class="aui-text-danger">AUI Slide</span>提供了常用的配置属性，可以自定义宽度，高度，自动播放，分页器样式等，支持无缝循环轮播
+                </div>
+            </div> -->
+            <div class="aui-slide-node bg-dark">
+               <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/p-2.jpg" />
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/p-1.jpg" />
+            </div>
+            <div class="aui-slide-node bg-dark">
+                <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/p-3.jpg" />
+            </div>
+        </div>
+        <div class="aui-slide-page-wrap"><!--分页容器--></div>
+        <div class="icon-cart-wrapper">
+            <span class="aui-iconfont aui-icon-cart"></span>
+        </div>
+    </div>
+   <div class="aui-card-list-content ys-list-content">
+        <div class="ys-list-item-inner">
+            <div class="ys-list-item-header">
+                <div class="ys-list-item-title">凯撒鸡排沙拉</div>
+            </div>
+            <div class="ys-list-item-content">
+                <div class="ys-list-item-title">
+                    <span class="ys-list-item-min-price">￥28<em>起</em></span>
+                    <span class="pt-btn">拼团价</span>
+                    <span class="ys-list-item-has-order">已预订38份</span>
+                </div>
+                <div class="ys-list-item-right">单价￥38-58</div>
+            </div>
+        </div>
+    </div>
+    <div class="aui-content">
+        <ul class="aui-list aui-media-list">
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">份量</div>
+                    <div class="aui-row aui-row-padded">
+                        <div class="ys-col-xs-7 ys-type-selected"><span class="ys-type-select">大份</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">小份</span></div>
+                    </div>
+                </div>
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">周期</div>
+                    <div class="aui-row aui-row-padded">
+                        <div class="ys-col-xs-7 ys-type-selected"><span class="ys-type-select">3天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">7天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">15天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">30天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">60天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">90天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">3天</span></div>
+                        <div class="ys-col-xs-7"><span class="ys-type-select">7天</span></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="aui-info">
+        <ul class="aui-list aui-media-list">
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">送餐说明</div>
+                    <p class="notice-desc">每日中餐中午十二点之前送达</p>
+                    <p class="notice-desc">每日晚餐晚上七点之前送达</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section class="aui-content">
+        <div class="aui-card-list">
+            <div class="aui-card-list-header">
+                <i class="xq-icon"></i>
+                <span class="ys-list-header">详情</span>
+            </div>
+            <div class="aui-card-list-content">
+                <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/xq-1.jpg" />
+            </div>
+            <div class="aui-card-list-content">
+                <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/xq-2.jpg" />
+            </div>
+        </div>
+    </section>
+    <section class="aui-content">
+         <div class="aui-col-xs-4 addToCart">
+            <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/cart-plus.jpg" />
+         </div>
+        <div class="aui-col-xs-4" tapmode onclick="openDialog('callback')">一起拼</div>
+        <div class="aui-col-xs-4">我要预定</div>
+    </section>
+    <div id="dialog-inner-content" class="aui-hide">
+        <div class="icon-close-wrapper">
+            <span class="aui-iconfont aui-icon-close"></span>
+        </div>
+        <div class="aui-card-list-content ys-list-content">
+            <div class="ys-list-item-inner">
+                <div class="ys-list-item-header">
+                    <img src="__ROOT__/application/Yanshi/Dist/images/yanshi/p-2.jpg" />
+                </div>
+                <div class="ys-list-item-content">
+                    <div class="ys-list-item-title">
+                        <span class="ys-list-item-min-price">￥28</span>
+                        <span class="pt-btn">拼团价</span>
+                    </div>
+                    <div class="ys-list-item-title">已选择“大份，30天”</div>
+                </div>
+            </div>
+        </div>
+        <div class="aui-tab" id="tab">
+            <div class="aui-tab-item aui-active"><span>2人成团</span></div>
+            <div class="aui-tab-item"><span>4人成团</span></div>
+        </div>
+        <div class="aui-tab-content">
+            <ul class="aui-list aui-form-list">
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            好友1
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="请输入好友注册手机号">
+                        </div>
+                    </div>
+                </li>
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            好友2
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="请输入好友注册手机号">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="aui-list aui-form-list aui-hide">
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            好友1
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="请输入好友注册手机号">
+                        </div>
+                    </div>
+                </li>
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            好友2
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="请输入好友注册手机号">
+                        </div>
+                    </div>
+                </li>
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            好友3
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="请输入好友注册手机号">
+                        </div>
+                    </div>
+                </li>
+                <li class="aui-list-item">
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-label">
+                            好友4
+                        </div>
+                        <div class="aui-list-item-input">
+                            <input type="text" placeholder="请输入好友注册手机号">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <section class="aui-content">
+            <div class="dialog-order-btn">预定</div>
+        </section>
+   </div>
+</section>
+</body>
+<script type="text/javascript" src="__ROOT__/application/Yanshi/Dist/js/aui/aui-slide.js"></script>
+<script type="text/javascript" src="__ROOT__/application/Yanshi/Dist/js/aui/aui-tab.js" ></script>
+<script type="text/javascript" src="__ROOT__/application/Yanshi/Dist/js/aui/aui-dialog.js" ></script>
+<script type="text/javascript">
+var slide = new auiSlide({
+        container:document.getElementById("aui-slide"),
+        // "width":300,
+        "height":260,
+        "speed":300,
+        "autoPlay": 2000,
+        "pageShow":true,
+        "pageStyle":'dot',
+        "loop":true,
+        'dotPosition':'center',
+        currentPage: function() {
+        	
+        }
+    });
+var tab = new auiTab({
+        element:document.getElementById("tab")
+    },function(ret){
+        console.log(ret);
+    });
+
+var dialog = new auiDialog();
+function openDialog(type){
+    switch (type) {
+        case "callback":
+            dialog.alert({
+                title:"",
+                msg:document.getElementById('dialog-inner-content').innerHTML,
+                buttons:[]
+            },function(ret){
+                if(ret){
+                    dialog.alert({
+                        title:"提示",
+                        msg:"您点击了第"+ret.buttonIndex+"个按钮",
+                        buttons:['确定']
+                    });
+                }
+            })
+        break;
+        default:
+            break;
+    }
+}
+</script>
+</html>
