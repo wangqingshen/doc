@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "copyright/copyright",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "picker组件的应用",
+    "navigationBarTextStyle":"black"
+  }
+}
