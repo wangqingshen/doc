@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "PingFang SC Regular";
+  	src: url('./PingFangRegular.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+  font-family: "PingFang";
+    src: url('./青鸟华光简琥珀.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Medium";
+  	src: url('./PingFangMedium.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Light";
+  	src: url('./PingFangLight.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC ExtraLight";
+  	src: url('./PingFangExtraLight.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Bold";
+  	src: url('./PingFangBold.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+@font-face {
+	font-family: "PingFang SC Thin";
+  	src: url('./PingFangThin.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+.main{
+  font-size:1rem;
+  color: #61B3E6;
+}
+.font_1{
+  font-size:1rem;
+  font-family: 'PingFang SC Regular';
+  color: #61B3E6;
+}
+.font_2{
+  font-size:1rem;
+  font-family: 'PingFang SC Thin';
+  color:#61B3E6;
+}
