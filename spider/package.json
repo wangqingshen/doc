@@ -1,0 +1,26 @@
+{
+  "name": "font_spider_demo",
+  "version": "1.0.0",
+  "description": "zip web-font",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp-cache": "^0.4.3",
+    "gulp-font-spider": "^0.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-tinypng": "^1.0.2"
+  },
+  "scripts": {
+    "test": "font"
+  },
+  "keywords": [
+    "webfont"
+  ],
+  "author": "point_halo",
+  "license": "UNLICENSED"
+}
